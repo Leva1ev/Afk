@@ -1,0 +1,11 @@
+name: afk
+version: '1.0-SNAPSHOT'
+main: LevaLev.afk.Afk
+api-version: '1.20'
+commands:
+  shard:
+    description: Gives <amount> shard to a player (can be negative)
+    permission: afk.shard
+  afkshop:
+    description: Opens a shop to spend your afk shards on
+    aliases: /afkshop, /shardshop
